@@ -15,16 +15,16 @@ public class Fibonacci {
 
     // правильный метод с оценкой O(n)
     private static long fibNums(int n) {
-        long[] nums = new long[n + 1];
+        long[] nums = new long[n + 1]; // O(n)
 
         // по условию первое и второе число равны 0 и 1
-        nums[0] = 0;
-        nums[1] = 1;
+        nums[0] = 0; // O(1)
+        nums[1] = 1; // O(1)
 
-        for (int i = 2; i <= n; i++) {
+        for (int i = 2; i <= n; i++) { // O(n)
             nums[i] = nums[i - 1] + nums[i - 2];
         }
-        return nums[n];
+        return nums[n]; // O(1)
     }
 
     // неправильный метод через рекурсию, который можно исправить с помощью мемоизации

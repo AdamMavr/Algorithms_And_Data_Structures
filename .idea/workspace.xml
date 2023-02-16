@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30004f6b-7ce9-408e-b3b8-c466116c2251" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Theory" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Theory" beforeDir="false" afterPath="$PROJECT_DIR$/Theory" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson01_FibonacciNumber/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson01_FibonacciNumber/Fibonacci.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
